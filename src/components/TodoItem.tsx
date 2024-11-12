@@ -31,7 +31,7 @@ const TodoItem = ({ todo }: TodoItemProps) => {
             type="text"
             value={editText}
             onChange={(e) => setEditText(e.target.value)}
-            className="flex-1 p-1 border rounded"
+            className="border rounded w-full"
             autoFocus
           />
           <button
@@ -52,7 +52,7 @@ const TodoItem = ({ todo }: TodoItemProps) => {
         </div>
       ) : (
         <>
-          <span className="flex-1">{todo.text}</span>
+          <span className="flex-1 overflow-x-auto">{todo.text}</span>
           <button
             onClick={() => setIsEditing(true)}
             className="px-3 py-1 bg-yellow-500 text-white rounded hover:bg-yellow-600"

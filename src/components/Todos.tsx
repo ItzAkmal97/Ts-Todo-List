@@ -14,12 +14,12 @@ function Todos() {
   };
 
   return (
-    <main className="min-h-screen bg-slate-300 flex flex-col items-center gap-4 p-8">
-      <h1 className="text-3xl font-bold text-gray-800">Todo List</h1>
+    <main className="min-h-screen bg-slate-300 flex flex-col items-center gap-2 p-4">
+      <h1 className="text-2xl font-bold text-gray-800">Todo List</h1>
       
-      <div className="flex gap-2 w-full max-w-md">
+      <div className="flex flex-col gap-2 w-full max-w-md">
         <input
-          className="flex-1 rounded h-10 bg-slate-50 px-3"
+          className="rounded h-10 bg-slate-50 px-3"
           required
           placeholder="Enter a new todo"
           value={newTodoText}
