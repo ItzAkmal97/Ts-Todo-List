@@ -14,7 +14,7 @@ function Todos() {
   };
 
   return (
-    <main className="min-h-screen bg-slate-300 flex flex-col items-center gap-2 p-4">
+    <main className="min-h-screen bg-slate-300 flex flex-col items-center gap-2 p-8">
       <h1 className="text-2xl font-bold text-gray-800">Todo List</h1>
       
       <div className="flex flex-col gap-2 w-full max-w-md">
